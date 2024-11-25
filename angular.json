@@ -41,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/eve-nordinstorm-portfolio/",
               "budgets": [
                 {
                   "type": "initial",

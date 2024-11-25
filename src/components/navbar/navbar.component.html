@@ -1,0 +1,56 @@
+<nav class="navbar fixed top-0 right-0 p-4 z-10">
+  <!-- Menu button -->
+  <button
+    class="menu-button text-white bg-black rounded font-bold text-xl py-2 px-4 cursor-pointer"
+    (click)="toggleMenu()"
+  >
+    MENU
+  </button>
+
+  <!-- Dropdown menu -->
+  <ul
+    class="dropdown-menu hidden absolute right-0 bg-black rounded w-60 text-right list-none py-2 pr-4 z-20"
+    [ngClass]="{ block: menuOpen }"
+  >
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        class="block py-2 px-4 text-white hover:bg-purple"
+        >Overview</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/web-development"
+        routerLinkActive="active"
+        class="block py-2 px-4 text-white hover:bg-purple"
+        >Web Development</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/ux-design"
+        routerLinkActive="active"
+        class="block py-2 px-4 text-white hover:bg-purple"
+        >User Experience Design</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/graphic-design"
+        routerLinkActive="active"
+        class="block py-2 px-4 text-white hover:bg-purple"
+        >Graphic Design</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/marketing"
+        routerLinkActive="active"
+        class="block py-2 px-4 text-white hover:bg-purple"
+        >Marketing</a
+      >
+    </li>
+  </ul>
+</nav>
