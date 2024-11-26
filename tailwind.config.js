@@ -14,6 +14,7 @@ module.exports = {
       fuchsia: "#86198f",
       black: "#000000",
       white: "#ffffff",
+      lightGray: "#e0e7ff",
     },
   },
   plugins: [],

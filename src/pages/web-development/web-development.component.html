@@ -1,1 +1,52 @@
-<p>web-development works!</p>
+<h1 class="text-white font-rock text-3xl">Web Development</h1>
+<p class="text-white font-bold text-lg lg:text-xl my-5 lg:mb-16">
+  As an accomplished full-stack developer, I leverage modern frameworks to craft
+  responsive frontend designs and effectively connect with databases through
+  RESTful APIs.
+</p>
+
+<div class="my-8">
+  <app-project-card
+    [brandLogo]="'assets/artistry-net-logo.png'"
+    [projectScreenshot]="'assets/AN1.PNG'"
+    [projectTitle]="'Social Media App'"
+    [techStack]="['Vue.js', 'ASP.NET Core', 'SQL database']"
+    [githubLink]="'https://github.com/EveNordinstorm/vue-portfolio-project'"
+    [videoLink]="
+      'https://drive.google.com/file/d/1SLYvgG_9cLX7NHmmVeMTo6YTfaYplEKq/view?usp=sharing'
+    "
+    [description]="
+      'This social media app is built using Vue.js and Tailwind with a .NET Core backend. It enables users to create accounts, edit profiles, and authenticate securely via JWT. The core features - posting, sharing, commenting, liking, and following—are all powered by dynamic AJAX requests, ensuring seamless updates to the SQL database without page refreshes. The backend architecture uses Entity Framework for managing relationships between entities (such as foreign keys for user interactions), ensuring data consistency. Data Transfer Objects (DTOs) are utilised to streamline communication between the controllers and services, enforcing a clean separation of concerns.'
+    "
+  ></app-project-card>
+</div>
+
+<div class="my-8">
+  <app-project-card
+    [brandLogo]="'assets/ead-logo.png'"
+    [projectScreenshot]="'assets/ead1.PNG'"
+    [projectTitle]="'eCommerce Site'"
+    [techStack]="['MongoDB', 'Express', 'Angular', 'Node.js']"
+    [githubLink]="'https://github.com/EveNordinstorm/angular-portfolio-project'"
+    [videoLink]="
+      'https://drive.google.com/file/d/1DKJMaP8F0WQzXNLYfq5ajPXlux-l9mht/view?usp=sharing'
+    "
+    [description]="
+      'This full-stack MEAN (MongoDB, Express, Angular, Node.js) application is designed for a clothing brand, leveraging MongoDB’s powerful querying and filtering capabilities to organise products efficiently. JWT authentication secures user sessions, with data stored in local storage to ensure persistence across sessions. A responsive cart allows users to add and remove items instantly, providing real-time updates to create a smooth shopping experience. The backend, developed using Express and Node.js, ensures fast, scalable API calls. Angular is used to build a dynamic and responsive UI, enhancing usability and product search performance.'
+    "
+  ></app-project-card>
+</div>
+
+<div class="my-8 mb-20">
+  <app-project-card
+    [brandLogo]="'assets/agilohub-logo.png'"
+    [projectScreenshot]="'assets/sub-tiers.JPG'"
+    [projectTitle]="'SaaS Website'"
+    [techStack]="['React', 'Next.js', 'Node.js', 'PostgreSQL', 'GraphQL']"
+    [githubLink]="'https://github.com/EveNordinstorm?tab=repositories'"
+    [videoLink]="''"
+    [description]="
+      'This full-stack application is built using Next.js, Node.js, PostgreSQL, and GraphQL to present a high quality website for a Software as a Service. PostgreSQL powers robust data storage and retrieval, while GraphQL enables flexible, efficient querying for optimal performance. Next.js leverages server-side rendering (SSR) and static site generation (SSG) for enhanced SEO and fast load times, optimising the site for marketing purposes. The backend, built with Node.js, ensures scalable API performance, while the responsive UI, developed with React, offers an intuitive experience across devices.'
+    "
+  ></app-project-card>
+</div>
