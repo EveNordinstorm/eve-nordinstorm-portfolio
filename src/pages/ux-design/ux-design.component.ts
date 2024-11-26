@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-ux-design',
   standalone: true,
-  imports: [RouterModule],
+  imports: [],
   templateUrl: './ux-design.component.html',
   styleUrl: './ux-design.component.scss'
 })
