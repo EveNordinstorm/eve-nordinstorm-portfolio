@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/",
+    "/graphic-design",
+    "/marketing",
+    "/ux-design",
+    "/web-development"
+  ]
+}
