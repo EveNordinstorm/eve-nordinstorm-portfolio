@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/eve-nordinstorm-portfolio",
+            "baseHref": "/",
+            "outputPath": "dist/eve-nordinstorm",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -41,7 +42,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/eve-nordinstorm-portfolio/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
