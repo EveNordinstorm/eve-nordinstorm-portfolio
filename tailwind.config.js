@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ['"Century Gothic"', "sans-serif"],
-      rock: ['"Rock Salt"', "cursive"],
+      rock: ['"Rock Salt"', "serif"],
     },
     colors: {
       purple: "#9260DE",
